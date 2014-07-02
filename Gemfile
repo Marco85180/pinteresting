@@ -16,6 +16,8 @@ gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'aws-sdk', '~> 1.45.0'
 gem 'figaro', '1.0.0.rc1'
 gem 'masonry-rails', '~> 0.2.0'
+gem 'will_paginate', '~> 3.0'
+gem 'will_paginate-bootstrap'
 
 group :development, :test do
   gem 'sqlite3'
